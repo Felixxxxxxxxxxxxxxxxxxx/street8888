@@ -73,6 +73,9 @@
     }
 }
 @media (max-width:366px){
+    .header__nav-link-top{
+        flex-direction: column;
+    }
     .cart__content{
         width: 310px;
     }
@@ -80,6 +83,6 @@
         text-align: center;
     }
     .cart__img img{
-        max-width: 310px;
+        width: 280px;
     }
 }
